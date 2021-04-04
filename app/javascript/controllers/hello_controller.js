@@ -9,4 +9,9 @@ export default class extends Controller {
         itemEl.innerHTML = "Hello world from a Stimulus controller!";
         listEl.appendChild(itemEl);
     }
+
+    reset() {
+        this.element.reset();
+        console.log("Los Putos del malo bicho");
+    }
 }
